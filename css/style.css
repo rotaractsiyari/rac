@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+  
+}
+
+
+.logo {
+  
+   margin-left: 100px;
+    position: fixed;
+    opacity: 100%;
+    padding:0 20px;
+    z-index: 1;
+    
+}   
+
+h1{
+    text-align: center;
+}
+
+.container .banner .content{
+    margin-left: 300px; margin-right: 300px;
+    margin-top: 20%;
+    position:relative;
+
+    color: ivory;
+  
+  
+    
+}
+
+.container .banner {
+    position: absolute;
+    
+    width: 100%;
+    height: 120%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.863), rgba(36, 21, 34, 0.534)), url("/img/w1.jpg");
+    opacity: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: stretch;
+    z-index: 0;
+}
+
+.nav ul{
+    margin-left:280px ; margin-right: 280px; margin-top: 20px;
+    padding: 15px;
+    position: fixed;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.698);
+    border-radius: 20px;
+
+   
+}
+
+.nav ul li {
+    display: inline;
+    position: relative;
+    padding: 0 20px;
+
+
+
+
+}
+
+.nav li a {
+    text-decoration: none;
+    color: whitesmoke;
+
+    text-align-last: right;
+    font-variant: small-caps;
+    font-weight: bolder;
+
+}
+
+.nav li a:hover {
+    background-color: rgb(250, 11, 131);
+    padding: 20px 5px 20px 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    font-size: 15px;
+   
+
+}
+
+/* Dropdown Button */
+.dropbtn {
+    border: none;
+    font-variant: small-caps;
+    background-color:unset;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-decoration: none;
+    
+  
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  
+    display: inline-block;  
+    padding:0 20px;
+    
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px darkslategrey;
+    
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: whitesmoke;
+    padding: 20px;
+    font-size: small;
+    text-decoration: none;
+    display: block;
+    font-variant: small-caps;
+    background-color:unset;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-decoration: none;  
+    border-bottom: solid;
+    
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: rgb(255, 7, 107);
+    transition: 0.2s;
+    transition-duration: 0.5s;
+    border-radius: 25px 0 25px 0;
+    
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 10px 0 10px 0;
+}
+
