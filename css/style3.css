@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+.president{
+    width:100%;
+  
+    border: solid rgb(255, 0, 102);
+    
+}
+
+.president-con{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.president .back-photo{
+    position: absolute;
+    z-index: -500;
+    opacity: 40%;
+    
+   
+}
+
+.president .president-con .pre-photo{
+    margin-top: 20px;
+    transition: 1s;
+}
+
+.president .president-con .pre-photo:hover{
+    cursor: pointer;
+    transition: all 1s;
+    transform: scale(1.1);  
+    opacity: 90%;
+    z-index: -4000;
+   
+}
+
+
+h2{
+float: right;
+margin-right: 80px;
+}
+
+.president .vid-bio{
+  width:70%;
+  height: 740px;
+ display: flex;
+ margin: auto;
+}
+
+@media (max-width:500px){
+
+
+        .president .vid-bio{
+            width: 80%;
+            height: 200px;
+         
+          }
+    
+    }
